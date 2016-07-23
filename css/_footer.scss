@@ -1,0 +1,117 @@
+.footer{
+		background: #e1e1e1;
+		height: 375px;
+		margin-top: 30px;
+	    a{
+		    text-decoration: none;
+		    color: #a6a7b0;
+		 }
+	    .social{
+		    width: 600px;
+		    height: 75px;
+		    margin:0 auto;
+		    background:#f1f1f1;
+		    padding:25px 0 0 15px;
+		    box-sizing: border-box;
+				.social_text{
+				    color: #53545e;
+				    font-weight: bold;
+				    font-size: 20px;
+				}
+				.social_icons{
+				    margin-top: -25px;
+						.sprite{
+						    background: url("../img/sprite.png") no-repeat;
+						    width: 34px;
+						    height: 34px;
+						    border-radius: 100%;
+						    cursor: pointer;
+						}
+						li{
+						    display: inline-block;
+						    float: right;
+						    margin-right: 10px;
+						}
+						li:hover{
+						    margin-top: -5px;
+						}
+						li:nth-child(8) {
+						    background-position:-1px 0;
+						}
+						li:nth-child(7) {
+						    background-position:-44px 0;
+						}
+						li:nth-child(6) {
+						    background-position:-86px 0;
+						}
+						li:nth-child(5) {
+						    background-position:-131px 0;
+						}
+						li:nth-child(4) {
+						}
+						li:nth-child(3) {
+						    background-position:-220px 0;
+						}
+						li:nth-child(2) {
+						    background-position:-265px 0;
+						}
+						li:nth-child(1) {
+						    background-position:-309px 0;
+						    margin-right: 15px;
+						}
+				}
+
+		}
+		.footer_wrap{
+		    width: 600px;
+		    height: 200px;
+		    margin:0 auto;
+		    background:#53545e;
+				.footer_text{
+				    display: inline-block;
+				    color: #ffffff;
+				    width: 70%;
+				    padding-left: 15px;
+				    line-height:27px;
+				}
+				.footer_links{
+				    display: inline-block;
+				    padding: 20px;
+						a{
+						    color: #ffffff;
+						    margin-left: 5px;
+						}
+						a:hover{
+					   		color: #a6a7b0;
+						}
+						li{
+				   			margin-bottom: 10px;
+						}
+				}
+		}
+		.copyring_div{
+		    border-top:1px solid #bfc0c3;
+		    font-size:13px;
+		    box-sizing: border-box;
+		    padding: 15px 0 15px 0;
+		    width: 95%;
+		    margin-left: 10px;
+				a{
+				    float: right;
+				}
+				.unsubscribe{
+				    border-left: 1px solid #a6a7b0;
+				    padding-left:5px;
+				    margin-left: 10px;
+				}
+				.copyring{
+				    color: #a6a7b0;
+				}
+				.gusto{
+				    color: #ffffff;
+				}
+		}
+
+
+}
+

@@ -1,0 +1,30 @@
+.header{
+    background: #e1e1e1;
+    height: 100px;
+    	.header_wrap{
+		    width: 600px;
+		    height: 100px;
+		    margin:0 auto;
+		    background:#53545e;
+				div{
+				    display: inline-block;
+				}
+				.header_logo{
+				    background: url(../img/logo.png) no-repeat;
+				    height: 35px;
+				    width: 160px;
+				    margin:36px 0 0 30px;
+				    cursor: pointer;
+				}
+				.header_text{
+				    margin-right: 30px;
+				    margin-top: 50px;
+				    float: right;
+				    color: #f1f1f1;
+				    a{
+					    text-decoration: none;
+					    color: #a6a7b0;
+					}
+				}  
+		}
+}
